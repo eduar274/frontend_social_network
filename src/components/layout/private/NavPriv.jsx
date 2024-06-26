@@ -7,7 +7,7 @@ export const NavPriv = () => {
       <ul className="container-lists__menu-list">
         <li className="menu-list__item">
           <a href="#" className="menu-list__link">
-            <i className="fa-solid fa-house"></i>
+            <i className="fa-solid fa-house-user"></i>
             <span className="menu-list__title">Inicio</span>
           </a>
         </li>
@@ -21,17 +21,11 @@ export const NavPriv = () => {
 
         <li className="menu-list__item">
           <a href="#" className="menu-list__link">
-            <i className="fa-solid fa-user"></i>
+            <i className="fa-solid fa-users"></i>
             <span className="menu-list__title">Gente</span>
           </a>
         </li>
 
-        <li className="menu-list__item">
-          <a href="#" className="menu-list__link">
-            <i className="fa-regular fa-envelope"></i>
-            <span className="menu-list__title">Mensajes</span>
-          </a>
-        </li>
       </ul>
 
       <ul className="container-lists__list-end">
