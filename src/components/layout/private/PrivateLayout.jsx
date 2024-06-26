@@ -1,6 +1,16 @@
+import { Outlet } from "react-router-dom"
+import { HeaderPriv } from "./HeaderPriv"
 
 export const PrivateLayout = () => {
   return (
-    <div>PrivateLayout</div>
+    <>
+      {/* LAYOUT */}
+      <HeaderPriv />
+
+      {/* Contenido Principal */}
+      <section className='layout__content'>
+        <Outlet />
+      </section>
+    </>
   )
 }
