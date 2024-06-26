@@ -10,7 +10,7 @@ export const Routing = () => {
     <BrowserRouter>
       <Routes>
         {/* Cargamos los componentes de la ruta pública */}
-          
+
           <Route path="/" element={<PrivateLayout />}>
             <Route index element={<Login />} />
             <Route path='login' element={<Login />} />
