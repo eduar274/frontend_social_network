@@ -5,12 +5,15 @@ import { Register } from '../components/user/Register';
 import { PublicLayout } from '../components/layout/public/PublicLayout';
 import { Feed } from '../components/publication/Feed';
 import { Error404 } from '../components/layout/Error404';
+import { AuthProvider } from '../context/AuthProvider';
 
 export const Routing = () => {
   return (
     <BrowserRouter>
+    <AuthProvider>
       <Routes>
-
+      
+        
         {/* Cargamos los componentes de la ruta pública */}
         <Route path="/" element={<PublicLayout />}>
           <Route index element={<Login />} />
@@ -28,6 +31,7 @@ export const Routing = () => {
         <Route path='*' element={<Error404 />} />
 
       </Routes>
+      </AuthProvider>
     </BrowserRouter>
   )
 }
