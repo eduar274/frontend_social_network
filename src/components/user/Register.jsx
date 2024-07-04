@@ -18,10 +18,10 @@ export const Register = () => {
     // Prevenir que se actualice la pantalla
     e.preventDefault();
 
-    // Obetner los datos del formulario
+    // Obtener los datos del formulario
     let newUser = form;
 
-    // Guardar usuario en la BD del API Backend
+    // Petición a la API del Backend para guardar usuario en la BD
     const request = await fetch(Global.url + "user/register", {
       method: "POST",
       body: JSON.stringify(newUser),
@@ -102,6 +102,7 @@ return (
 
           <input type="submit" value="Regístrate" className="btn btn-success" />
         </form>
+
       </div>
     </div>
   </>
