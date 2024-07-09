@@ -9,7 +9,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 1. Clona este repositorio en tu máquina local (Crea un Fork si lo vas a editar):
 
     ```bash
-    git clone https://github.com/inesmariao/frontend_social_network.git
+    git clone https://github.com/eduar274/frontend_social_network.git
     ```
 
 2. Navega al directorio del proyecto:
@@ -54,7 +54,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 Este frontend está diseñado para trabajar con una API REST desarrollada en Node.js. Puedes encontrar el repositorio del backend en el siguiente enlace:
 
-[API REST para Red Social (Backend)](https://github.com/inesmariao/api-social-network.git)
+[API REST para Red Social (Backend)](https://github.com/eduar274/api-social-network.git)
 
 > [!IMPORTANT]
 > Asegúrate de tener la API REST en funcionamiento para que el frontend pueda comunicarse correctamente con el backend.
