@@ -12,8 +12,6 @@ import { Followers } from '../components/follow/Followers';
 import { People } from '../components/user/People';
 import { Config } from '../components/user/Config.jsx';
 
-
-
 export const Routing = () => {
   return (
     <BrowserRouter>
